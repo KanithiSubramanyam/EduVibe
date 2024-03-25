@@ -1,3 +1,7 @@
+h1{
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,93 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Course-card{
+  border: 1px solid gray;
+}
+
+.courses-display{
+  display: grid;
+  gap:1px;
+}
+
+.Cards{
+   margin-top: 5em;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.Feature-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1em;
+}
+
+.feature-head{
+ margin: 5em;
+}
+
+.each-feature{
+  padding: 1.5em;
+  
+}
+
+.each-feature img{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width:576px) {
+  .Feature-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1em;
+  }
+  .each-feature{
+    padding: 0.1em;
+   
+  }
+  .train-txt p{
+    margin: 1.6em;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .train-txt h2{
+   text-align: center;
+ }
+ 
+ .train-txt{
+   margin-left: 1.8em;
+   margin-right: 1.8em;
+ }
+}
+
+.iframe{
+  height: 80vh;
+  width: 100%;
+}
+
+.video-head{
+  margin:1.3em;
+ }
+
+ .train-txt p{
+   margin: 1.6em;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .train-txt h2{
+  text-align: center;
+}
+
+.train-txt{
+  margin-left: 1.7em;
+  margin-right: 1.7em;
 }
